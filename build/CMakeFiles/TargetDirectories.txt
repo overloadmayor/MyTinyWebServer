@@ -1,0 +1,3 @@
+/home/realmayor/web_server/build/CMakeFiles/server.dir
+/home/realmayor/web_server/build/CMakeFiles/edit_cache.dir
+/home/realmayor/web_server/build/CMakeFiles/rebuild_cache.dir
