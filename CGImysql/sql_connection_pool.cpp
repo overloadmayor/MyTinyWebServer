@@ -1,5 +1,5 @@
 #include "sql_connection_pool.h"
-#include "/home/realmayor/web_server/log/log.h"
+#include "log.h"
 #include <list>
 #include <mysql/mysql.h>
 connection_pool::connection_pool() {
@@ -66,7 +66,7 @@ bool connection_pool::ReleaseConnection(MYSQL *con) {
   if (NULL == con)
     return false;
   lock.lock();
-  printf("push_back start\n");
+  // printf("push_back start\n");
   connList.push_back(con);
   --m_CurConn;
   ++m_FreeConn;

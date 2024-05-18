@@ -1,6 +1,6 @@
 #ifndef _CONNECTION_POOL_
 #define _CONNECTION_POOL_
-#include "/home/realmayor/web_server/lock/lock.h"
+#include "lock.h"
 #include <list>
 #include <mysql/mysql.h>
 #include <string>

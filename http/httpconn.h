@@ -1,6 +1,6 @@
 #ifndef HTTPCONNECTION_H
 #define HTTPCONNECTION_H
-#include "/home/realmayor/web_server/CGImysql/sql_connection_pool.h"
+#include "sql_connection_pool.h"
 #include <arpa/inet.h>
 #include <map>
 #include <string>

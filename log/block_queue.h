@@ -1,6 +1,6 @@
 #ifndef BLOCK_QUEUE_H
 #define BLOCK_QUEUE_H
-#include "/home/realmayor/web_server/lock/lock.h"
+#include "lock.h"
 #include <ctime>
 #include <stdlib.h>
 #include <sys/time.h>

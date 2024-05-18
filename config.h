@@ -1,6 +1,6 @@
 #ifndef CONFIG_H
 #define CONFIG_H
-#include "/home/realmayor/web_server/webserver/webserver.h"
+#include "webserver.h"
 class Config {
 public:
   Config();

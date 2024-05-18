@@ -1,6 +1,6 @@
 #include "webserver.h"
-#include "/home/realmayor/web_server/log/log.h"
-#include "/home/realmayor/web_server/threadpool/threadpool.h"
+#include "log.h"
+#include "threadpool.h"
 #include <arpa/inet.h>
 #include <assert.h>
 #include <cerrno>
@@ -93,7 +93,7 @@ void WebServer::sql_pool() {
                    m_sql_num, m_close_log);
 
   // 初始化数据库读取表
-  printf("initmysql start\n");
+  // printf("initmysql start\n");
   users->initmysql_result(m_connPool);
 }
 

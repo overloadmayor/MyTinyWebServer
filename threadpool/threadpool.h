@@ -1,7 +1,7 @@
 #ifndef THREADPOOL_H
 #define THREADPOOL_H
-#include "/home/realmayor/web_server/CGImysql/sql_connection_pool.h"
-#include "/home/realmayor/web_server/lock/lock.h"
+#include "lock.h"
+#include "sql_connection_pool.h"
 #include <exception>
 #include <list>
 #include <pthread.h>

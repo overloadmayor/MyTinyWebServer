@@ -1,9 +1,9 @@
 #ifndef WEBSERVER_H
 #define WEBSERVER_H
-#include "/home/realmayor/web_server/CGImysql/sql_connection_pool.h"
-#include "/home/realmayor/web_server/http/httpconn.h"
-#include "/home/realmayor/web_server/threadpool/threadpool.h"
-#include "/home/realmayor/web_server/timer/lst_timer.h"
+#include "httpconn.h"
+#include "lst_timer.h"
+#include "sql_connection_pool.h"
+#include "threadpool.h"
 #include <netinet/in.h>
 #include <string>
 #include <sys/epoll.h>

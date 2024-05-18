@@ -1,7 +1,7 @@
 #ifndef LOG_H
 #define LOG_H
 #include "block_queue.h"
-#include </home/realmayor/web_server/lock/lock.h>
+#include <lock.h>
 #include <stdio.h>
 #include <string>
 class Log {

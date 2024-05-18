@@ -1,9 +1,9 @@
 #include "lst_timer.h"
-#include </home/realmayor/web_server/http/httpconn.h>
 #include <assert.h>
 #include <csignal>
 #include <errno.h>
 #include <fcntl.h>
+#include <httpconn.h>
 #include <signal.h>
 #include <string.h>
 #include <sys/epoll.h>
